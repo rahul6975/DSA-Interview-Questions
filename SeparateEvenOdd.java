@@ -12,7 +12,7 @@ public class SeparateEvenOdd {
         int[] arr = new int[length];
         for (int i = 0; i < length; i++)
             arr[i] = sc.nextInt();
-        int[] finalArray = usingBruteForce(arr, length);
+        int[] finalArray = usingTwoPointer(arr, length);
         for (int i = 0; i < length; i++)
             System.out.print(finalArray[i] + " ");
     }
