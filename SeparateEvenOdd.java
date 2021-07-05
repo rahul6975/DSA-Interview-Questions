@@ -4,7 +4,6 @@ import java.util.Scanner;
 //input = {56,34,65,23,75}
 //output = 56 34 75 65
 
-
 public class SeparateEvenOdd {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

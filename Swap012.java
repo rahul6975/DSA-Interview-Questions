@@ -42,10 +42,4 @@ public class Swap012 {
             }
         }
     }
-
-    private static void swap(int[] arr, int mid, int high) {
-        int temp = arr[mid];
-        arr[high] = arr[mid];
-        arr[high] = temp;
-    }
 }
