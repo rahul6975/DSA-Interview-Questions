@@ -13,6 +13,7 @@ public class SimpleChallenge {
                 arr[i] = sc.nextInt();
             }
             System.out.println(getMax(arr, length));
+
             testCases--;
         }
     }

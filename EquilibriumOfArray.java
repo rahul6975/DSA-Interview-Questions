@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 //time = 0(n)
 //space = 0(1)
+
 public class EquilibriumOfArray {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

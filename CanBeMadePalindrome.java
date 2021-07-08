@@ -2,6 +2,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
+
 //time = 0(n)
 //space = 0(n)
 public class CanBeMadePalindrome {

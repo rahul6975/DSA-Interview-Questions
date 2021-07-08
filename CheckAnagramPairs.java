@@ -13,6 +13,7 @@ public class CheckAnagramPairs {
             for (int i = 0; i < total; i++) {
                 strArray[i] = sc.nextLine();
             }
+
             for (int i = 0; i < total; i++) {
                 for (int j = 0; j < total; j++) {
                     if (i < j) {
