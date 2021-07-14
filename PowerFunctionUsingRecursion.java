@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 //time = 0(log b)
-//space = 0(1)
+//space = 0(n)
 public class PowerFunctionUsingRecursion {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -11,10 +11,12 @@ public class PowerFunctionUsingRecursion {
     }
 
     private static int power(int a, int b) {
-        if (b == 0)
+        if (b == 0) {
             return 1;
-        if (b == 1)
+        }
+        if (b == 1) {
             return a;
+        }
         return a * power(a, b - 1);
     }
 }
